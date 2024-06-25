@@ -1,38 +1,104 @@
-/* .App {
+.App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-image-with-overlay {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 65vh;
+  background: url('/src/assets/bg1.png');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background-image-with-overlay .logo {
+  padding-left: 64px;
+  padding-top: 32px;
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 150px;
+  height: 150px;
+
+}
+
+.background-image-with-overlay h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 30vh;
+  margin-top:150px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: rgba(255, 192, 1, 0.65) ;
 }
 
-.App-link {
-  color: #61dafb;
+.cards-container{
+  /* padding-top: 25px; */
+  margin-left: 64px;
+  margin-right: 64px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.card{
+  width:400px;
+  height: 176px;
+  background-color: red;
+  border: #fff 8px solid;
+  display: flex; /* Adiciona display: flex */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  position: relative;
+}
+
+.card1{
+  width:400px;
+  height: 176px;
+  background-color: red;
+  border: #fff 8px solid;
+  display: flex; /* Adiciona display: flex */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  position: relative;
+}
+
+.card2{
+  width:400px;
+  height: 176px;
+  background-color: red;
+  border: #fff 8px solid;
+  display: flex; /* Adiciona display: flex */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  position: relative;
+}
+
+.placeholder{
+  background-color: black;
+  display: flex; /* Adiciona display: flex */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 8px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: -30px;
+
+}
+
+
+
+
+
